@@ -117,3 +117,18 @@ button:disabled {
 .log--heal {
   color: green;
 }
+
+.lost {
+  background: firebrick;
+  color: #efefef;
+}
+
+.win {
+  background: mediumseagreen;
+  color: aliceblue;
+}
+
+.draw {
+  color: #eefefefe;
+  background: darkorange;
+}

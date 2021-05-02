@@ -29,7 +29,7 @@
           <div class="healthbar__value" v-bind:style="playerBarStyles"></div>
         </div>
       </section>
-      <section class="container" v-if="winner">
+      <section class="container" v-if="winner" v-bind:class="{lost:winner === 'monster',win:winner==='player',draw:winner === 'draw'}">
         <h2>Game Over!</h2>
         <h3 v-if="winner === 'monster'">You lost!</h3>
         <h3 v-else-if="winner === 'player'">You won!</h3>
